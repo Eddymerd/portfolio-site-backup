@@ -1,0 +1,184 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+main {
+  margin: 0px;
+  padding: 0px;
+}
+
+/************ GRID**************/
+.full-width {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.half-width {
+  float: left;
+  width: 600px;
+}
+
+.third-width {
+  float: left;
+  width: 400px;
+}
+
+/*************Header*************/
+
+header {
+  background: #ffffff ;
+  height: 800px;
+}
+
+nav {
+  text-align: right;
+}
+
+nav ul li {
+  display: inline-block;
+  font-family: 'open sans', sans-serif;
+  font-size: 24px;
+  padding-left: 25px;
+  padding-top: 75px;
+}
+
+nav a {
+  color: #395e66;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+header h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 64px;
+  font-weight: 500;
+  padding-top: 100px;
+}
+
+header h2 {
+  font-family: 'open sans', sans-serif;
+  font-size: 48px;
+  font-weight: 300;
+}
+
+header span{
+  color: #faa916;
+}
+
+
+/*************About Section*************/
+
+#about {
+  background: #395e66;
+  height: 1100px;
+  text-align: center;
+}
+
+#about p {
+  color: #ffffff;
+  padding-left: 300px;
+  padding-right: 300px;
+
+}
+
+#about h2 {
+  color: #ffffff;
+  font-family: 'Oswald', sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  padding: 100px 0 30px 0;
+}
+
+#about h3 {
+  color: #ffffff;
+  font-family: 'Open Sans bold', sans-serif;
+  font-size: 24px;
+  padding-top: 30px;
+}
+
+#about p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+}
+
+#about img{
+  border: 4px solid white;
+}
+
+/*************Portfolio Section*************/
+.project {
+  margin: 10px 0px 50px 0px;
+}
+
+#portfolio {
+  background: #ffffff;
+  height: 1050px;
+  text-align: center;
+}
+
+#portfolio h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  padding: 100px 0 50px 0;
+}
+
+#portfolio h3 {
+  font-family: 'Open Sans bold', sans-serif;
+  font-size: 24px;
+  padding-top: 30px;
+}
+
+#portfolio p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  padding: 0 25px 0 25px;
+}
+
+/*************Contact Section*************/
+
+#contact {
+  background: #395e66;
+  height: 600px;
+  text-align: center;
+}
+
+#contact h2 {
+  color:#ffffff;
+  font-family: 'Oswald', sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  padding-top: 100px;
+}
+
+#contact h3 {
+  color:#ffffff;
+  font-family: 'Open Sans bold', sans-serif;
+  font-size: 24px;
+  padding-top: 30px;
+
+}
+
+#contact p {
+  color:#ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  padding: 0 25px 0 25px;
+
+}
+
+#contact ul li {
+  display: inline-block;
+  padding-right: 35px;
+  padding-top: 10px;
+}
+
+#copyright {
+  clear: both;
+  padding-top:130px;
+}
+
+#copyright p{
+  color:#ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
